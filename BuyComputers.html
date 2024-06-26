@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="Assets/css/BuyComputer.css">
+    <title>PcShop.com</title>
+</head>
+<body>
+    <input  class="form-control Inputsearch  " placeholder="Search something" type="text" id="gridlist">
+
+    <a href="main.html"><button type="button" class="btn btn-warning">Home</button></a>
+    <hr>
+    <div class="container-fluid ">
+        <div class="row ">
+          <div class="col-3">
+            <div class="list-group" id="list-tab" role="tablist">   
+              <input  class="form-control  " placeholder="Search" type="text" id="InputSearch">
+              <br>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light active" id="list-Razer-list" data-toggle="list" href="#list-Razer" role="tab" aria-controls="Razer">Razer</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light " id="list-Acer-list" data-toggle="list" href="#list-Acer" role="tab" aria-controls="Acer">Acer</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-HP-list" data-toggle="list" href="#list-HP" role="tab" aria-controls="HP">HP</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-Asus-list" data-toggle="list" href="#list-Asus" role="tab" aria-controls="Asus">Asus</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-Dell-list" data-toggle="list" href="#list-Dell" role="tab" aria-controls="Dell">Dell</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-Lenovo-list" data-toggle="list" href="#list-Lenovo" role="tab" aria-controls="Lenovo">Lenovo</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-LG-list" data-toggle="list" href="#list-LG" role="tab" aria-controls="LG">LG</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-Casper-list" data-toggle="list" href="#list-Casper" role="tab" aria-controls="Casper">Casper</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-Fujitsu-list" data-toggle="list" href="#list-Fujitsu" role="tab" aria-controls="Fujitsu">Fujitsu</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-Nexus-list" data-toggle="list" href="#list-Nexus" role="tab" aria-controls="Nexus">Nexus</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-Samsung-list" data-toggle="list" href="#list-Samsung" role="tab" aria-controls="Samsung">Samsung</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-Toshiba-list" data-toggle="list" href="#list-Toshiba" role="tab" aria-controls="Toshiba">Toshiba</a>
+              <a class="list-group-item list-group-item-action text-center bg-dark text-light" id="list-Sony-list" data-toggle="list" href="#list-Sony" role="tab" aria-controls="Sony">Sony</a>
+            </div>
+          </div>
+          <div class="col-9 Comp">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-Razer" role="tabpanel" aria-labelledby="list-Razer-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-Acer" role="tabpanel" aria-labelledby="list-Acer-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-HP" role="tabpanel" aria-labelledby="list-HP-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-Asus" role="tabpanel" aria-labelledby="list-Asus-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-Dell" role="tabpanel" aria-labelledby="list-Dell-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-Lenovo" role="tabpanel" aria-labelledby="list-Lenovo-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-LG" role="tabpanel" aria-labelledby="list-LG-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-Casper" role="tabpanel" aria-labelledby="list-Casper-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-Fujitsu" role="tabpanel" aria-labelledby="list-Fujitsu-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-Nexus" role="tabpanel" aria-labelledby="list-Nexus-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-Samsung" role="tabpanel" aria-labelledby="list-Samsung-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-Toshiba" role="tabpanel" aria-labelledby="list-Toshiba-list"><div class="mainGridAll"></div></div>
+              <div class="tab-pane fade" id="list-Sony" role="tabpanel" aria-labelledby="list-Sony-list"><div class="mainGridAll"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      
+      <div class="modal " id="myModalMORE">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            
+            
+            <div class="modal-header bg-dark">
+              <h4 class="modal-title">computer specifications</h4>
+              <button type="button" class="close bg-danger" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <div id="Modalbody"  class="modal-body bg-dark MOdal">
+              
+           
+            </div>
+      
+      
+            <div class="modal-footer bg-dark">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+<script src="Assets/js/BuyComputer.js"></script>
+<script src="Assets/js/BuyComputer_jq.js"></script>
+
