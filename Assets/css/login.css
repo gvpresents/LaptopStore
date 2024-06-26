@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(30, 30, 30);
+    margin: 10px;
+    color: aliceblue;
+    
+}
+hr{
+    background-color: darkgrey;
+}
+.main{
+    width: 500px;
+    margin: auto;
+}
+input{
+    width: 500px !important;
+}
+.BUU{
+    width: 80px;
+    font-size: 23px;
+}

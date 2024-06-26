@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(30, 30, 30);
+    padding: 10px;
+    color: aliceblue;
+    
+    
+}
+hr{
+    background-color: darkgrey;
+}
+.Comp{
+    background: rgb(54,42,42);
+    background: linear-gradient(74deg, rgb(51, 49, 49) 0%, rgba(0,30,30,0.3) 35%, rgb(64, 70, 70) 100%);
+}
+img{
+    width: 180px;
+
+}
+
+.Inputsearch{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 165px;
+    z-index:100 ;
+}
+
+.mainGridAll{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,220px);
+    grid-template-rows: minmax(280px, max-content);
+}
+
+.mainGridAll h3 span {
+    font-weight: 400;
+}
+
+.mainmini{
+    padding: 10px;
+    line-height:0.2;
+    background-color: rgba(230, 213, 213, 0.1);
+    border-radius: 12px;
+
+}
+.mainmini h3 {
+    font-size: 15px;
+    font-weight: 900;
+ 
+}
+.pImg , .pButton {
+    text-align: center;
+}
+.MOdal span {
+    font-weight: 300;
+    font-size: 25px;
+}
+.MOdal{
+    width: 650px;
+}
+.modal-header{
+    width: 650px;
+}
+.modal-footer{
+    width: 650px;
+}
+.IMGOFMODAL{
+    width: 600px;
+}
